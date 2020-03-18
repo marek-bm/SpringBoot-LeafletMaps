@@ -39,7 +39,7 @@ public class CovidDataParser {
         for(CSVRecord record:csvParser){
             double lat=Double.parseDouble(record.get("Lat"));
             double lon=Double.parseDouble(record.get("Long"));
-            String infected=record.get("3/16/20");
+            String infected=record.get("3/17/20");
             points.add(new Point(lat,lon, infected));
         }
         return points;
