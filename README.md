@@ -1,4 +1,4 @@
-# SpringBoot & LifeletMaps
+# SpringBoot & LeafletMaps
 The application shows Covid19 infections data on 17 Mar 2020.
 Infection data is displayed on OpenStreet maps using Lifelet.
 
